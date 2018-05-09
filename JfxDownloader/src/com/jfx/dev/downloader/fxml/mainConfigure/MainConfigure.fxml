@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jfx.dev.downloader.controller.mainConfigure.MainConfigureControl">
+   <children>
+      <Button fx:id="operateBtn" layoutX="140.0" layoutY="131.0" mnemonicParsing="false" onAction="#onClickOperateBtn" text="起動" />
+      <ComboBox fx:id="cbBox" layoutX="85.0" layoutY="89.0" onAction="#onChangeDisplaySize" prefWidth="150.0" visibleRowCount="5" />
+      <Label layoutX="76.0" layoutY="53.0" text="画面サイズを選択してください" textAlignment="JUSTIFY" />
+   </children>
+</AnchorPane>
